@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/inboxFragment">
-
     <fragment
         android:id="@+id/inboxFragment"
         android:name="com.example.catchat.InboxFragment"
-        android:label="fragment_inbox"
+        android:label="Inbox"
         tools:layout="@layout/fragment_inbox" />
-
     <fragment
         android:id="@+id/helpFragment"
         android:name="com.example.catchat.HelpFragment"
-        android:label="fragment_help"
+        android:label="Help"
         tools:layout="@layout/fragment_help" />
 </navigation>
